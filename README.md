@@ -12,6 +12,6 @@ Our guest is in the room, but what he sees? Is the room prepared for his visit? 
 
 Things tend to break after a while. It might be just because of time, or the guest actually broke it. Class `Repair` checks it, using `repairProblems()`. So, if the stuff will be prepared anyway. But if it's guest's fault, he will be asked to pay for it.
 
-Our guest can get ill or maybe he needs a car to visit the city. Also, he might be a tourist, that's why he would want to buy something special. Class `Other` provides all this service with `things` methods.
+Our guest can get ill or maybe he needs a car to visit the city. Also, he might be a tourist, that's why he would want to buy something special. Class `Other` provides all this service with `things()` method.
 
-In the end, the guest will receive a bill in class `Bill` and `payBill` method and the hotel receive review in class `Feedback` with `feedbackCheck()` method.
+In the end, the guest will receive a bill in class `Bill` and `payBill()` method and the hotel receive review in class `Feedback` with `feedbackCheck()` method.
