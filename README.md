@@ -2,7 +2,7 @@
 >OOP Lab2. Racovcena Irina. FAF-212
 
 ## Hotel Simulation
-I made a Hotel simulation where a guest can bunch of things such as rent a room, order food or a taxi repair stuff, get medical service, leave feedback and even buy souvenirs. Obviously, in the end of his trip he must pay all his bills. Or not...
+I made a Hotel simulation where a guest can do bunch of things such as rent a room, order food or a taxi repair stuff, get medical service, leave feedback and even buy souvenirs. Obviously, in the end of his trip he must pay all his bills. Or not...
 
 After entering the hotel, the guest goes to reception to move into a room. There are 2 possible ways: there is a free room for him or all of them are occupied. Class `Manager` has a function `available()` which checks if the guest can stay at the hotel. If the answer is negative, he leaves and simulation stops. If it's otherwise we continue. Each time when some service was provided to the guest, his mood gets better, so will do reviews in the end. So, if everything is fine, we get `guest.review++` and `guest.tips++` for the hotel's staff.
 
