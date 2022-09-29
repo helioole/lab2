@@ -8,7 +8,7 @@ After entering the hotel, the guest goes to reception to move into a room. There
 
 The guest came from another country with a heavy luggage. That's why needs help. `bag()` method in class `Baggage` provides the needed help. Here will be a porter to carry the bags but if it's too heavy he will call the other person to do it. So, the guest has to wait for a little bit.
 
-Our guest is in the room, but what he sees? Is the room prepared for his visit? We need to check it with class `Cleaning` in `checkCleaning()` method. If the room is clean, then he will be satisfied and gives us more tips. If it's not, he will be outaged by poor hotel service and will hurry up to leave.In order to stop him, the hotel staff order's him free food order. Class 'Menu' provides the menu and generates the guests' order with method `createMeals()`. If the guest wasn't convinced to stay, he would leave the hotel without payment and write a bad review.
+Our guest is in the room, but what does he see? Is the room prepared for his visit? We need to check it with class `Cleaning` in `checkCleaning()` method. If the room is clean, then he will be satisfied and gives us more tips. If it's not, he will be outaged by poor hotel service and will hurry up to leave.In order to stop him, the hotel staff order's him free food order. Class 'Menu' provides the menu and generates the guests' order with method `createMeals()`. If the guest wasn't convinced to stay, he would leave the hotel without payment and write a bad review.
 
 Things tend to break after a while. It might be just because of time, or the guest actually broke it. Class `Repair` checks it, using `repairProblems()`. So, if the stuff will be prepared anyway. But if it's guest's fault, he will be asked to pay for it.
 
